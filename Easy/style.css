@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'helvetica neue';
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    padding: 1% 12%;
+    padding-bottom: 1.5%;
+}
+main {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 30% 20% 4% 20% 26%;
+    grid-template-areas:
+        "left-top top-center1 top-center2 right-top"
+        "left-top center center right-top"
+        "left-center center center right-top"
+        "left-center center center right-bottom"
+        "left-bottom left-bottom bottom-center right-bottom";
+    gap: 1%;
+}
+
+.left-top {
+    background-color: #111;
+    grid-area: left-top;
+    border-radius: 10%;
+    background-image: url(2.png);
+    background-size: cover;
+}
+
+.top-center1 {
+    background-color: #9a6161;
+    grid-area: top-center1;
+    border-radius: 10%;
+    background-image: url(6.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.top-center2 {
+    background-color: #cecaca;
+    grid-area: top-center2;
+    border-radius: 10%;
+    background-image: url(5.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.right-top {
+    background-color: #b9a0a0;
+    grid-area: right-top;
+    border-radius: 10%;
+    background-image: url(4.png);
+    background-size: cover;
+}
+
+.center {
+    background-color: #fefbd6;
+    grid-area: center;
+    border-radius: 10%;
+    background-image: url(center.png);
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+.left-center {
+    background-color: tan;
+    grid-area: left-center;
+    border-radius: 10%;
+    background-image: url(7.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.left-bottom {
+    background-color: orange;
+    grid-area: left-bottom;
+    border-radius: 10%;
+    background-image: url(8.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.bottom-center {
+    background-color: yellow;
+    grid-area: bottom-center;
+    border-radius: 10%;
+    background-image: url(bg.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.bottom-center img{
+    height: 150%;
+    position: absolute;
+    bottom: 0;
+}
+.right-bottom {
+    background-color: rgb(192, 195, 172);
+    grid-area: right-bottom;
+    border-radius: 10%;
+    background-image: url(1.png);
+    background-position: center;
+    background-size: cover;
+}
