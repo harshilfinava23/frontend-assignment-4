@@ -31,7 +31,7 @@ main {
     background-color: #111;
     grid-area: left-top;
     border-radius: 10%;
-    background-image: url(2.png);
+    background-image: url(images/2.png);
     background-size: cover;
 }
 
@@ -39,7 +39,7 @@ main {
     background-color: #9a6161;
     grid-area: top-center1;
     border-radius: 10%;
-    background-image: url(6.png);
+    background-image: url(images/6.png);
     background-position: center;
     background-size: cover;
 }
@@ -48,7 +48,7 @@ main {
     background-color: #cecaca;
     grid-area: top-center2;
     border-radius: 10%;
-    background-image: url(5.png);
+    background-image: url(images/5.png);
     background-position: center;
     background-size: cover;
 }
@@ -57,7 +57,7 @@ main {
     background-color: #b9a0a0;
     grid-area: right-top;
     border-radius: 10%;
-    background-image: url(4.png);
+    background-image: url(images/4.png);
     background-size: cover;
 }
 
@@ -65,7 +65,7 @@ main {
     background-color: #fefbd6;
     grid-area: center;
     border-radius: 10%;
-    background-image: url(center.png);
+    background-image: url(images/center.png);
     background-position: center;
     background-size: cover;
 
@@ -76,7 +76,7 @@ main {
     background-color: tan;
     grid-area: left-center;
     border-radius: 10%;
-    background-image: url(7.png);
+    background-image: url(images/7.png);
     background-position: center;
     background-size: cover;
 }
@@ -85,7 +85,7 @@ main {
     background-color: orange;
     grid-area: left-bottom;
     border-radius: 10%;
-    background-image: url(8.png);
+    background-image: url(images/8.png);
     background-position: center;
     background-size: cover;
 }
@@ -94,7 +94,7 @@ main {
     background-color: yellow;
     grid-area: bottom-center;
     border-radius: 10%;
-    background-image: url(bg.png);
+    background-image: url(images/bg.png);
     background-position: center;
     background-size: cover;
     display: flex;
@@ -111,7 +111,7 @@ main {
     background-color: rgb(192, 195, 172);
     grid-area: right-bottom;
     border-radius: 10%;
-    background-image: url(1.png);
+    background-image: url(images/1.png);
     background-position: center;
     background-size: cover;
 }
